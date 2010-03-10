@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Views</title>
+</head>
+<body>
+
+<h1>Views</h1>
+
+<p>You can change the path and extension of your templates by setting the 
+configuration var <code>templateFile</code>. This var needs a <code>%s</code> as the
+template file.</p>
+<p>Check the code, the file is not <code>index.phtml</code> is
+<code><?php echo basename(__FILE__) ?></code>. That is because you can change
+the default module and action.</p>
+<p>Also, there is no layout here.
+You can prevent to have a layout by setting <code>false</code> in 
+the <code>layout</code> configuration var.</p>
+<p><a href="<?php echo $this->basePath ?>layout_example">A Layout and template example</a></p>
+
+</body>
+</html>

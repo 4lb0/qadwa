@@ -1,0 +1,13 @@
+<p>It's a good practice to use 
+<a href="http://www.php.net/manual/en/control-structures.alternative-syntax.php">alternative syntax</a>
+for control structures in the template files.</p> 
+
+<?php if(!count($items)): ?>
+<p>Qadwa is a tiny framework.</p>
+<?php else: ?>
+<ul>
+<?php foreach($items as $item): ?>
+	<li><?php echo $item ?></li> 
+<?php endforeach; ?>
+</ul>
+<?php endif; ?>

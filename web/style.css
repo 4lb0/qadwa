@@ -1,0 +1,49 @@
+body{ 
+    background:#E8DDCB;
+	font-family:Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+	font-size:11pt;
+	margin:0;
+	padding:0;
+}
+a{ color:#990000; text-decoration:none }
+
+.clear{ clear:both }
+.left-col, .right-col{ width:48% }
+.left-col{ float:left }
+.right-col{ float:right }
+
+#wrapper{ margin:auto; width:80% }
+#header, #main{ float:left; padding:1em; width:100% }
+#header{
+	margin-bottom:.75em;
+    background:#033649;
+    -moz-border-radius-bottomleft: 1em;
+    -webkit-border-bottom-left-radius: 1em;
+    -moz-border-radius-bottomright: 1em;
+    -webkit-border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    
+}
+#header a{ color:#FFF }
+#header h1{ font-size:2em;margin:0; padding:0; text-align: center }
+#header .examples{ }
+
+#main{ 
+    background:#43A5A4;
+    -moz-border-radius-topleft: 1em;
+    -webkit-border-top-left-radius: 1em;
+    -moz-border-radius-topright: 1em;
+    -webkit-border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;    
+}
+#main iframe{ 
+	background:#FFF;
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+	border-radius: .5em;
+    border: 0;
+	height:300px;
+	width:100%;
+}

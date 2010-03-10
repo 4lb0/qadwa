@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Errors</title>
+</head>
+<body>
+<h1>Errors</h1>
+<p>This show how default errors are handled and configurated.</p>
+<p>See what happends with the above errores when you toggle the debug mode. 
+<a href="<?php echo $this->baseUrl?>debug/<?php echo (int) !$this->debug ?>">
+<?php if($this->debug): ?>Deactivate<?php else: ?>Activate<?php endif ?> debug mode
+</a></p>
+
+<p><a href="<?php echo $this->baseUrl?>unexistent">This is a unexistent page</p>
+<p><a href="<?php echo $this->baseUrl?>a-bug">This exists, but is buggy</p>
+</body>
+</html>

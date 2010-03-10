@@ -1,0 +1,10 @@
+<h2>Contact</h2>
+<?php if($message): ?>
+<p><strong><?php echo $message ?></strong></p>
+<?php endif ?>
+<form method="post">
+	<p><label>Name: <input name="name" /></label></p>
+	<p><label>Email: <input name="email" /></label></p>
+	<p><label>Message: <textarea name="message"></textarea></label></p>
+	<p><input type="submit" value="Send" /></p>
+</form>

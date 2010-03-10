@@ -1,0 +1,20 @@
+<html>
+<head>
+<title><?php echo $title ?></title>
+</head>
+<body>
+<h1><?php echo $title ?></h1>
+<p>
+	<a href="<?php echo $this->baseUrl ?>qadwa/show/">Summary</a>
+	- <a href="<?php echo $this->baseUrl ?>qadwa/show/pros">Pros</a>
+	- <a href="<?php echo $this->baseUrl ?>qadwa/show/cons">Cons</a>
+</p>
+<p>The vars passed to the views are present in the layout, so be careful!</p>
+<p>Also the vars are in the scope. Use it like <code>$template_var</code>.
+The only var uses <code>$this</code> is
+<code>$this->content</code>, the content in the layout.</p>
+<blockquote>
+<?php echo $this->content ?>
+</blockquote>
+</body>
+</html>
